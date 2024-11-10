@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Note</title>
+</head>
+<body>
+    <form action="/write" method="POST">
+        <label for="note_name">Note name:</label>
+        <input type="text" name="note_name" id="note_name" required>
+        <br>
+        <label for="note">Description:</label>
+        <textarea name="note" id="note" required></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
